@@ -1,0 +1,27 @@
+@import "~bootstrap";
+// @import "~highcharts/css/highcharts.css";
+
+@import "~nprogress/nprogress.css";
+
+$nprogress-color: #ff5a05;
+
+#nprogress {
+    .bar {
+        background: $nprogress-color !important;
+        z-index: 2000;
+    }
+
+    .peg {
+        box-shadow: 0 0 10px $nprogress-color, 0 0 5px $nprogress-color !important;
+    }
+
+    .spinner-icon {
+        border-top-color: $nprogress-color !important;
+        border-left-color: $nprogress-color !important;
+    }
+
+    .spinner {
+        z-index: 2000;
+    }
+}
+

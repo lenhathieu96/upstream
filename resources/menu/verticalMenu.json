@@ -1,0 +1,170 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard",
+      "url": "dashboard"
+    },
+    {
+      "name": "Location Master",
+      "icon": "menu-icon tf-icons mdi mdi-map-marker-down",
+      "slug": "location",
+      "submenu": [
+        {
+          "url": "country",
+          "name": "Country",
+          "icon": "menu-icon tf-icons mdi mdi-city",
+          "slug": "country"
+        },
+        {
+          "url": "province",
+          "name": "Province",
+          "icon": "menu-icon tf-icons mdi mdi-city",
+          "slug": "province"
+        },
+        {
+          "url": "district",
+          "name": "District",
+          "icon": "menu-icon tf-icons mdi mdi-city",
+          "slug": "district"
+        },
+        {
+          "url": "commune",
+          "name": "Commune",
+          "icon": "menu-icon tf-icons mdi mdi-city",
+          "slug": "commune"
+        }
+      ]
+    },
+    {
+      "name": "All Farmers",
+      "icon": "menu-icon tf-icons mdi mdi-account-cowboy-hat",
+      "slug": "farmer",
+      "url": "farmer"
+    },
+    {
+      "name": "Farm Land Location",
+      "icon": "menu-icon tf-icons mdi mdi-map-marker-down",
+      "slug": "farm_land",
+      "url": "farm_land"
+    },
+    {
+      "name": "All Staff",
+      "icon": "menu-icon tf-icons mdi mdi-account",
+      "slug": "staff",
+      "url": "staff"
+    },
+    {
+      "name": "Cooperative",
+      "icon": "menu-icon tf-icons mdi mdi-silo",
+      "slug": "cooperative",
+      "url": "cooperative"
+    },
+    {
+      "name": "Season Masters",
+      "icon": "menu-icon tf-icons mdi mdi-snowflake",
+      "slug": "season-masters",
+      "url": "season-masters"
+    },
+    {
+      "name": "Crop",
+      "icon": "menu-icon tf-icons mdi mdi-barley",
+      "slug": "location",
+      "submenu": [
+        {
+
+          "name": "Crop Informations",
+          "icon": "menu-icon tf-icons  mdi mdi-information-box me-2",
+          "slug": "crop-informations",
+          "url": "crop-informations"
+        },
+        {
+          "name": "Crop Variety",
+          "icon": "menu-icon tf-icons  mdi mdi-feather me-2",
+          "slug": "crop_variety",
+          "url": "crop_variety"
+        },
+        {
+          "name": "Crop Stage",
+          "icon": "menu-icon tf-icons mdi mdi-home-silo me-2",
+          "slug": "crop-stages",
+          "url": "crop-stages"
+        },
+        {
+          "name": "Crop Activity",
+          "icon": "menu-icon tf-icons mdi mdi-tractor me-2",
+          "slug": "crop-activities",
+          "url": "crop-activities"
+        },
+        {
+          "name": "Crop Calendar",
+          "icon": "menu-icon tf-icons mdi mdi-calendar-week me-2",
+          "slug": "crop-calendars",
+          "url": "crop-calendars"
+        }
+      ]
+    },
+    {
+      "name": "Catalogue Value",
+      "icon": "menu-icon tf-icons mdi mdi-note",
+      "slug": "catalogue-values",
+      "url": "catalogue-values"
+    },
+    {
+      "name": "Activities",
+      "icon": "menu-icon tf-icons mdi mdi-note",
+      "slug": "staff_activities",
+      "url": "staff_activities"
+    },
+    {
+      "name": "Warehouses",
+      "icon": "menu-icon tf-icons mdi mdi-warehouse",
+      "slug": "warehouse",
+      "url": "warehouse"
+    },
+    {
+      "name": "Report",
+      "icon": "menu-icon tf-icons mdi mdi-poll",
+      "slug": "staff_activities",
+      "submenu": [
+        {
+          "url": "farmer_report",
+          "name": "Farmer",
+          "icon": "menu-icon tf-icons mdi mdi-chart-bar",
+          "slug": "farmer_report"
+        },
+        {
+          "url": "farmland_report",
+          "name": "FarmLand",
+          "icon": "menu-icon tf-icons mdi mdi-chart-pie",
+          "slug": "farmland_report"
+        },
+        {
+          "url": "cultivation_report",
+          "name": "Cultivation",
+          "icon": "menu-icon tf-icons mdi mdi-chart-gantt",
+          "slug": "cultivation_report"
+        },
+        {
+          "url": "distribution_report",
+          "name": "Distribution",
+          "icon": "menu-icon tf-icons mdi mdi-chart-areaspline",
+          "slug": "distribution_report"
+        },
+        {
+          "url": "/report/farmer_balance",
+          "name": "Farmer Balance",
+          "icon": "menu-icon tf-icons mdi mdi-chart-line",
+          "slug": "farmer_balance_report"
+        },
+        {
+          "name": "Crop Growth",
+          "icon": "menu-icon tf-icons mdi mdi-seed",
+          "slug": "crop_growth_report",
+          "url": "/report/crop_growth"
+        }
+      ]
+    }
+  ]
+}
