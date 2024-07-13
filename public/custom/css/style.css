@@ -10,17 +10,17 @@
 
 .card-header-status {
   cursor: pointer;
-  background-color: #2E7F25 !important;
+  background-color: #B5661E !important;
   color: white;
 }
 
 .card-header-status.collapsed {
   background-color: white !important;
-  color: #2E7F25;
+  color: #B5661E;
 }
 
 .bg-menu-theme .menu-item.active > .menu-link:not(.menu-toggle) {
-  background-color: #2E7F25 !important;
+  background-color: #B5661E !important;
 }
 
 .template-customizer-open-btn {

@@ -104,7 +104,7 @@ $customizerHidden = 'customizer-hide';
               </div>
             </div>
             <div class="mb-3">
-              <button class="btn text-white d-grid w-100" type="submit" style="background-color:#2E7F25">Sign in</button>
+              <button class="btn text-white d-grid w-100" type="submit" style="background-color:#B5661E">Sign in</button>
             </div>
           </form>
         </div>

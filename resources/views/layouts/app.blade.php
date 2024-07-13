@@ -13,7 +13,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>@yield('title', 'upstream')</title>
+  <title>@yield('title', 'agripro')</title>
   <!-- laravel CRUD token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <!-- Canonical SEO -->
@@ -104,7 +104,7 @@
             padding-left: 2rem;
           }
             .bg-menu-theme .menu-item.active > .menu-link:not(.menu-toggle) {
-                background-color: #2E7F25 !important;
+                background-color: #B5661E !important;
             }
         </style>
         <!-- / Layout wrapper -->

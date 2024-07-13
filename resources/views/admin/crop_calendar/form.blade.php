@@ -9,7 +9,7 @@
             @csrf
 
             <div class="card">
-                <div class="card-header bg-primary text-white" style="background-color: #2E7F25 !important">
+                <div class="card-header bg-primary text-white" style="background-color: #B5661E !important">
                     {{ $cropCalendar->id ? 'Update Crop Calendar' : 'Create Crop Calendar' }}
                 </div>
                 <div class="card-body mt-4">
@@ -122,7 +122,7 @@
             <div style="overflow-x: scroll;">
                 <table class="table table-bordered" style="width:2500px;">
                     <thead>
-                    <tr style="background-color: #2E7F25;">
+                    <tr style="background-color: #B5661E;">
                         <th style="color:white; width: 250px;">Activity Title</th>
                         <th style="color:white; width: 250px;">Activity</th>
                         <th style="color:white; width: 250px;">Stage</th>

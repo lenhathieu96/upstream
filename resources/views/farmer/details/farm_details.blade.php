@@ -3,7 +3,7 @@
 
 <table class="table table-bordered js-farm-table">
     <thead>
-      <tr style="background-color: #2E7F25 !important;">
+      <tr style="background-color: #B5661E !important;">
         <th class="text-white">Farm Name</th>
         <th class="text-white">Land Holding</th>
         <th class="text-white">Action</th>
@@ -86,7 +86,7 @@
 {{--    <div>--}}
     <table class="table table-bordered js-farm-table">
         <thead>
-        <tr style="background-color: #2E7F25 !important;">
+        <tr style="background-color: #B5661E !important;">
             <th class="text-white">Crop Crowth</th>
         </tr>
         </thead>

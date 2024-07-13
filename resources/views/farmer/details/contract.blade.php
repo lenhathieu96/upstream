@@ -6,7 +6,7 @@
 @if (!empty($cultivations))
     <table class="table table-bordered js-crop-table">
         <thead>
-        <tr style="background-color: #2E7F25 !important;">
+        <tr style="background-color: #B5661E !important;">
             <th class="text-white">Contract</th>
             <th class="text-white">View Details</th>
         </tr>
