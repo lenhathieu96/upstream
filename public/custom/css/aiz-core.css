@@ -13,15 +13,15 @@ use custom-style.css
     --red: #dc3545;
     --orange: #fd7e14;
     --yellow: #ffc107;
-    --green: #28a745;
+    --green: #B5661E;
     --teal: #20c997;
     --cyan: #17a2b8;
     --white: #fff;
     --soft-white: #b5b5bf;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #28a745;
-    --hov-primary: #28a745;
+    --primary: #B5661E;
+    --hov-primary: #B5661E;
     --soft-primary: rgba(247, 123, 11, 0.15);
     --secondary: #8f97ab;
     --soft-secondary: rgba(143, 151, 171, 0.15);

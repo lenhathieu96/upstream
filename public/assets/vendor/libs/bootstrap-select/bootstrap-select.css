@@ -69,7 +69,7 @@ select.selectpicker {
   border-color: rgb(185, 74, 72);
 }
 .bootstrap-select.is-valid .dropdown-toggle, .was-validated .bootstrap-select select:valid + .dropdown-toggle {
-  border-color: #28a745;
+  border-color: #B5661E;
 }
 .bootstrap-select.fit-width {
   width: auto !important;
