@@ -125,6 +125,8 @@ $customizerHidden = 'customizer-hide';
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 700;
+    padding: 4px;
+    color: #000000;
   }
 </style>
 @endsection
