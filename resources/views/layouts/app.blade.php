@@ -25,7 +25,6 @@
   @include('layouts/sections/styles')
   <link rel="stylesheet" href="{{ asset(mix('css/app.css')) }}">
   {{-- <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon/favicon.ico') }}" /> --}}
-  <link rel="icon" type="image/x-icon" href="{{ asset('/images/farm-hero.png') }}" />
   <link rel="stylesheet" type="text/css" href="{{ asset('custom/css/aiz-core.css') }}" />
   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">

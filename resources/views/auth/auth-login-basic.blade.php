@@ -5,7 +5,7 @@ $customizerHidden = 'customizer-hide';
 
 @extends('layouts/layoutMaster')
 
-@section('title', 'Login - Farm Angel | Upstream')
+@section('title', 'Login - AgriPro')
 
 @section('vendor-style')
 <!-- Vendor -->
@@ -77,7 +77,7 @@ $customizerHidden = 'customizer-hide';
         <!-- Logo -->
         <div class="app-brand justify-content-center mt-5">
             <span class="app-brand-logo demo">
-              <img src="{{ asset('/images/farm-hero-larger.png') }}" width="100px" class="me-2">
+              AgriPro
             </span>
         </div>
         <!-- /Logo -->
