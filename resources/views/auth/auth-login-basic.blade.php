@@ -121,5 +121,10 @@ $customizerHidden = 'customizer-hide';
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .app-brand-logo.demo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
 </style>
 @endsection
