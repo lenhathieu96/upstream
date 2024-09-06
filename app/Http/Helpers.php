@@ -121,18 +121,20 @@ if (!function_exists('is_phone_exist_in_hero')) {
 
         $phoneExistUrl = config('upstream.HEROMARKET_URL') . '/api/v2/file/is-phone-existed';
 
-        try {
-            $response = Http::withOptions(['verify' => false])->post($phoneExistUrl, ['phone_number' => $phoneNumber]);
-            $response = json_decode($response->getBody(), true);
-            if (isset($response['phone_exist'])) {
-                return $response['phone_exist'];
-            }
-        } catch (\Exception $exception) {  
-            Log::error($exception->getMessage());
-        }
+        // try {
+        //     $response = Http::withOptions(['verify' => false])->post($phoneExistUrl, ['phone_number' => $phoneNumber]);
+        //     $response = json_decode($response->getBody(), true);
+        //     if (isset($response['phone_exist'])) {
+        //         return $response['phone_exist'];
+        //     }
+        // } catch (\Exception $exception) {  
+        //     Log::error($exception->getMessage());
+        // }
+        
 
         // we return default is true (not accept to modify by default)
-        return true;
+        // return true;
+        return false;
     }
 }
 
